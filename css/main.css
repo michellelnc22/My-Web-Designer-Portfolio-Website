@@ -1,0 +1,110 @@
+/******
+General 
+*******/
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%; 
+}
+
+ /* main section */ 
+.wrapper {
+    max-width: 940px; 
+    margin: 0 auto; 
+    padding: 0 5%;  
+}
+
+/* site body */ 
+body {
+    background: #f2f2f2; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo {
+    text-align: center; 
+    margin: 0; 
+}
+
+/* header */ 
+header {
+    background-color: #4d79ff; 
+    margin: 0 0 30px 0; 
+    padding: 5px 0 0 0; 
+    width: 100%; 
+    float: left; 
+}
+
+/* logo text */ 
+h1, h2 {
+    color: white; 
+    font-family: 'Amatic SC', cursive;
+}
+
+/* navigation */ 
+nav {
+    margin: 20px 0 0; 
+    text-align: center; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a, nav a:visited {
+    color: white; 
+}
+
+.navbar-nav {
+
+    list-style: none; 
+    margin: 0 10px; 
+    padding: 0px; 
+    display: inline-block; 
+}
+
+.nav-item {
+    display: inline-block; 
+    margin: 5px; 
+}
+ nav a {
+     font-weight: bold; 
+     padding: 15px 10px; 
+ }
+
+/*footer */
+
+footer {
+
+    text-align: center; 
+    color: #3d3c3c;      
+    left: 0; 
+    bottom: 0; 
+    text-align: center; 
+    width: 100%; 
+    clear: both; 
+
+}
+
+/*Gallery*/
+
+#gallery {
+
+    margin: 0; 
+    padding: 0; 
+    list-style: none; 
+    text-decoration: none; 
+}
+
+#gallery li {
+    float: left; 
+    width: 45%; 
+    margin: 2.5%;
+}
+
+#gallery li a p {
+    color: rgb(92, 92, 92); 
+    margin: 0; 
+    padding: 5%; 
+    font-size: 18px; 
+    text-align: center; 
+}
