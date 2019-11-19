@@ -17,6 +17,11 @@ img {
     padding: 0 5%;  
 }
 
+.profile-pic {
+    width: 200px; 
+    height: 200px; 
+}
+
 /* site body */ 
 body {
     background: #f2f2f2; 
