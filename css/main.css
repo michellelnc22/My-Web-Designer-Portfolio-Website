@@ -20,6 +20,13 @@ img {
 .profile-pic {
     width: 200px; 
     height: 200px; 
+    display: block; 
+    margin: 0 auto 30px; 
+    border-radius: 100%; 
+}
+
+h3 {
+    margin-bottom: 5px; 
 }
 
 /* site body */ 
@@ -87,7 +94,6 @@ footer {
     text-align: center; 
     width: 100%; 
     clear: both; 
-
 }
 
 /*Gallery*/
@@ -104,6 +110,7 @@ footer {
     float: left; 
     width: 45%; 
     margin: 2.5%;
+
 }
 
 #gallery li a p {
@@ -111,5 +118,13 @@ footer {
     margin: 0; 
     padding: 5%; 
     font-size: 18px; 
-    text-align: center; 
+}
+
+/*Contact Me*/
+
+.contact-info {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    font-size: 16px; 
 }
