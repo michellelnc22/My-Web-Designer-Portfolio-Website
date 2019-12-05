@@ -12,6 +12,11 @@ Gallery
     clear: left; 
 }
 
+h3 {
+    text-align: center; 
+}
+
+
 /********
 Homepage  
 ********/
@@ -34,5 +39,30 @@ logo
     text-align: left; 
     width: 45%; 
 }
+
+}
+
+@media screen and (min-width: 900px) {
+
+/********
+nav bar 
+********/
+
+    h1, h2 {
+        font-size: 48px; 
+    }
+
+    .nav-item {
+     font-size: 18px; 
+    }
+
+    nav a {
+        padding: 5px; 
+
+    }
+
+    h3 {
+        margin-bottom: 5%; 
+    }
 
 }
